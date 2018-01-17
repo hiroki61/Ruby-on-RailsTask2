@@ -1,0 +1,8 @@
+<p><Strong>Title</Strong></p>
+<%= @book.title %>
+<p><Strong>Body</Strong></p>
+<%= @book.body %>
+<div class="click">
+<%=link_to 'Edit' , "/books/#{@book.id}/edit" %>
+<%=link_to 'Back' , "/books" %>
+</div>
